@@ -27,6 +27,7 @@ def now_serving(katz_deli)
   line = "Currently serving"
   katz_deli.each do |item|
     line += "#{item}"
+    puts "Currently serving #{array.shift}."
   end
 else
   puts "There is nobody waiting to be served!"
