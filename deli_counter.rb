@@ -26,7 +26,7 @@ def now_serving(katz_deli)
   #katz_deli.shift
   line = "Currently serving"
   katz_deli.each do |item| 
-    line += "#{item}"
+    line += #{item}
   end
 else
   puts "There is nobody waiting to be served!"
