@@ -25,7 +25,8 @@ def now_serving(katz_deli)
   #katz_deli += 1
   #katz_deli.shift
   line = "Currently serving"
-  katz_deli.each do |item| 
+  katz_deli.each do |item|
+    line += katz_deli.shift
     line += "#{item}"
   end
 else
