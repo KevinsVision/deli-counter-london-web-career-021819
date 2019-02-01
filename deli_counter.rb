@@ -22,11 +22,6 @@ end
 def now_serving(katz_deli)
   if katz_deli.length > 1
   #puts "Currently serving #{katz_deli}."
-  #katz_deli += 1
-  #katz_deli.shift
-  #line = "Currently serving"
- # katz_deli.each do |item|
- #   line += "#{item}"
     puts "Currently serving #{katz_deli.shift}."
 
 else
